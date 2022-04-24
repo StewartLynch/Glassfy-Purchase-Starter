@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB85C2ED280F179400D759B1 /* GlassfyPurchaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85C2EC280F179400D759B1 /* GlassfyPurchaseApp.swift */; };
+		BB85C2EF280F179400D759B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85C2EE280F179400D759B1 /* ContentView.swift */; };
+		BB85C2F1280F179600D759B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB85C2F0280F179600D759B1 /* Assets.xcassets */; };
+		BB85C2F4280F179600D759B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB85C2F3280F179600D759B1 /* Preview Assets.xcassets */; };
+		BB85C2FB280F17D000D759B1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB85C2FA280F17D000D759B1 /* Launch Screen.storyboard */; };
+		BB85C2FD280F364F00D759B1 /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = BB85C2FC280F364F00D759B1 /* emoji.json */; };
+		BB85C2FF280F366900D759B1 /* EmojiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85C2FE280F366900D759B1 /* EmojiManager.swift */; };
+		BB85C301280F547500D759B1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85C300280F547500D759B1 /* ViewModel.swift */; };
+		BB85C303280F564200D759B1 /* EmojiPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85C302280F564200D759B1 /* EmojiPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB85C2E9280F179400D759B1 /* GlassfyPurchase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassfyPurchase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB85C2EC280F179400D759B1 /* GlassfyPurchaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassfyPurchaseApp.swift; sourceTree = "<group>"; };
+		BB85C2EE280F179400D759B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB85C2F0280F179600D759B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB85C2F3280F179600D759B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB85C2FA280F17D000D759B1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BB85C2FC280F364F00D759B1 /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
+		BB85C2FE280F366900D759B1 /* EmojiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiManager.swift; sourceTree = "<group>"; };
+		BB85C300280F547500D759B1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		BB85C302280F564200D759B1 /* EmojiPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB85C2E6280F179400D759B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB549BC02811DB84002E3049 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB85C2EE280F179400D759B1 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB549BC12811DBAC002E3049 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB85C302280F564200D759B1 /* EmojiPicker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB549BC22811DBBC002E3049 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BB85C300280F547500D759B1 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BB549BC32811DBE9002E3049 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BB85C2FE280F366900D759B1 /* EmojiManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BB549BC42811DC05002E3049 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB85C2FC280F364F00D759B1 /* emoji.json */,
+				BB85C2F0280F179600D759B1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB85C2E0280F179400D759B1 = {
+			isa = PBXGroup;
+			children = (
+				BB85C2EB280F179400D759B1 /* Glassfy Purchase */,
+				BB85C2EA280F179400D759B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB85C2EA280F179400D759B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB85C2E9280F179400D759B1 /* GlassfyPurchase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB85C2EB280F179400D759B1 /* Glassfy Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				BB85C2EC280F179400D759B1 /* GlassfyPurchaseApp.swift */,
+				BB549BC12811DBAC002E3049 /* Models */,
+				BB549BC02811DB84002E3049 /* Views */,
+				BB549BC22811DBBC002E3049 /* ViewModels */,
+				BB549BC32811DBE9002E3049 /* Managers */,
+				BB549BC42811DC05002E3049 /* Resources */,
+				BB85C2FA280F17D000D759B1 /* Launch Screen.storyboard */,
+				BB85C2F2280F179600D759B1 /* Preview Content */,
+			);
+			path = "Glassfy Purchase";
+			sourceTree = "<group>";
+		};
+		BB85C2F2280F179600D759B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB85C2F3280F179600D759B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB85C2E8280F179400D759B1 /* GlassfyPurchase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB85C2F7280F179600D759B1 /* Build configuration list for PBXNativeTarget "GlassfyPurchase" */;
+			buildPhases = (
+				BB85C2E5280F179400D759B1 /* Sources */,
+				BB85C2E6280F179400D759B1 /* Frameworks */,
+				BB85C2E7280F179400D759B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlassfyPurchase;
+			productName = "Glassfy Purchase";
+			productReference = BB85C2E9280F179400D759B1 /* GlassfyPurchase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB85C2E1280F179400D759B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BB85C2E8280F179400D759B1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BB85C2E4280F179400D759B1 /* Build configuration list for PBXProject "GlassfyPurchase" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB85C2E0280F179400D759B1;
+			productRefGroup = BB85C2EA280F179400D759B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB85C2E8280F179400D759B1 /* GlassfyPurchase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB85C2E7280F179400D759B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB85C2FB280F17D000D759B1 /* Launch Screen.storyboard in Resources */,
+				BB85C2F4280F179600D759B1 /* Preview Assets.xcassets in Resources */,
+				BB85C2FD280F364F00D759B1 /* emoji.json in Resources */,
+				BB85C2F1280F179600D759B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB85C2E5280F179400D759B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB85C2EF280F179400D759B1 /* ContentView.swift in Sources */,
+				BB85C2FF280F366900D759B1 /* EmojiManager.swift in Sources */,
+				BB85C303280F564200D759B1 /* EmojiPicker.swift in Sources */,
+				BB85C301280F547500D759B1 /* ViewModel.swift in Sources */,
+				BB85C2ED280F179400D759B1 /* GlassfyPurchaseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB85C2F5280F179600D759B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB85C2F6280F179600D759B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB85C2F8280F179600D759B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glassfy Purchase/Preview Content\"";
+				DEVELOPMENT_TEAM = RKV4UP49S6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.Glassfy-Purchase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB85C2F9280F179600D759B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glassfy Purchase/Preview Content\"";
+				DEVELOPMENT_TEAM = RKV4UP49S6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.changeme.Glassfy-Purchase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB85C2E4280F179400D759B1 /* Build configuration list for PBXProject "GlassfyPurchase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB85C2F5280F179600D759B1 /* Debug */,
+				BB85C2F6280F179600D759B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB85C2F7280F179600D759B1 /* Build configuration list for PBXNativeTarget "GlassfyPurchase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB85C2F8280F179600D759B1 /* Debug */,
+				BB85C2F9280F179600D759B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB85C2E1280F179400D759B1 /* Project object */;
+}
